@@ -40,7 +40,7 @@
   
   - [local] req/resp : 
   
-  
+  ```
   @PostPersist
     public void onPostPersist(){
         Bought bought = new Bought();
@@ -62,7 +62,7 @@
             .ship(delivery);
 
     }
-  
+  ```
   
   - [local] Circuit Breaker 
   
