@@ -58,7 +58,7 @@ public class MyPageViewHandler {
         try {
             if (shipped.isMe()) {
                 // view 객체 조회
-                Thread.currentThread().sleep((long) (200));
+                Thread.currentThread().sleep((long) (400));
                 List<MyPage> myPageList = myPageRepository.findByOrderId(shipped.getOrderId());
                 for(MyPage myPage : myPageList){
                     // view 객체에 이벤트의 eventDirectValue 를 set 함
