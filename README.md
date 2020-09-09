@@ -44,6 +44,9 @@
 
 - purchase 서비스가 죽어도 정상 서비스 됨(장애격리)
 
+  ![image](https://user-images.githubusercontent.com/68408645/92624248-3ef5c600-f302-11ea-9a0d-a04ff0b7233c.png)
+
+
   ![image](https://user-images.githubusercontent.com/68408645/92623950-eb837800-f301-11ea-8bf3-1e77502e0950.png)
 
   
