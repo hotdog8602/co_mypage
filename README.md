@@ -89,7 +89,38 @@
   
   - [local] Circuit Breaker 
   
+``` 
+  feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+  command:
+    default:
+      execution.isolation.thread.timeoutInMilliseconds: 610
+   ```
   
+  
+  ```   
+    @PostPersist
+    public void onPostPersist(){
+
+        try {
+            Thread.currentThread().sleep((long) (400 + Math.random() * 220));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        Shipped shipped = new Shipped();
+        BeanUtils.copyProperties(this, shipped);
+        shipped.publishAfterCommit();
+ 
+    }
+  
+  ```
+  
+  ![image](https://user-images.githubusercontent.com/68408645/92623029-b165a680-f300-11ea-96ce-2412ea5c728f.png)
+
   
   - Deploy/Pipeline
   
