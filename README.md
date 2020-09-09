@@ -41,6 +41,28 @@
   - [local] req/resp : 
   
   
+  @PostPersist
+    public void onPostPersist(){
+        Bought bought = new Bought();
+        BeanUtils.copyProperties(this, bought);
+        bought.publishAfterCommit();
+
+        //Following code causes dependency to external APIs
+        // it is NOT A GOOD PRACTICE. instead, Event-Policy mapping is recommended.
+
+        car_order.external.Delivery delivery =  new car_order.external.Delivery();
+
+        //동기 호출의 중요한 방식.
+        delivery.setOrderId(this.getOrderId());
+        delivery.setStatus("shipped");
+        delivery.setPurchaseId(this.getId());
+
+        // mappings goes here
+        PurchaseApplication.applicationContext.getBean(car_order.external.DeliveryService.class)
+            .ship(delivery);
+
+    }
+  
   
   - [local] Circuit Breaker 
   
