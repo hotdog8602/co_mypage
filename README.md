@@ -93,6 +93,9 @@
   
   - delivery 서비스가 죽으니 장애가 전파됨.
   
+  ![image](https://user-images.githubusercontent.com/68408645/92624436-78c6cc80-f302-11ea-8aa6-c7962b06788a.png)
+
+  
   ![image](https://user-images.githubusercontent.com/68408645/92623633-76b03e00-f301-11ea-8ade-274249872af9.png)
 
   
