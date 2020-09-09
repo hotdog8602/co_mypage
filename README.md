@@ -15,11 +15,31 @@
   
   - SAGA:  
 
+```
+@StreamListener(KafkaProcessor.INPUT)
+    public void wheneverOrdered_Buy(@Payload Ordered ordered){
 
-    ![image](https://user-images.githubusercontent.com/68408645/92605283-840efd80-f2ec-11ea-987f-87f8d724d94b.png)
+        if(ordered.isMe()){
+            System.out.println("##### listener ordered : " + ordered.toJson());
+
+            Purchase purchase = new Purchase();
+            purchase.setOrderId(ordered.getId());
+            purchase.setQty(ordered.getQty());
+            purchase.setStatus("Purchased.");
+
+            purchaseRepository.save(purchase);
+
+
+        }
+    }
+    
+```
+
+
+   ![image](https://user-images.githubusercontent.com/68408645/92605283-840efd80-f2ec-11ea-987f-87f8d724d94b.png)
 
   
-    ![image](https://user-images.githubusercontent.com/68408645/92604843-f206f500-f2eb-11ea-816e-67ab1becf894.png)
+   ![image](https://user-images.githubusercontent.com/68408645/92604843-f206f500-f2eb-11ea-816e-67ab1becf894.png)
 
   
   
@@ -63,6 +83,9 @@
 
     }
   ```
+  
+  
+  
   
   - [local] Circuit Breaker 
   
