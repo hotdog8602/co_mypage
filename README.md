@@ -41,7 +41,11 @@
   
    ![image](https://user-images.githubusercontent.com/68408645/92604843-f206f500-f2eb-11ea-816e-67ab1becf894.png)
 
-  
+
+- purchase 서비스가 죽어도 정상 서비스 됨(장애격리)
+
+  ![image](https://user-images.githubusercontent.com/68408645/92623950-eb837800-f301-11ea-8bf3-1e77502e0950.png)
+
   
 
   - [local] CQRS(Mypage view): 
@@ -83,6 +87,8 @@
 
     }
   ```
+  
+  - delivery 서비스가 죽으니 장애가 전파됨.
   
   ![image](https://user-images.githubusercontent.com/68408645/92623633-76b03e00-f301-11ea-8ade-274249872af9.png)
 
