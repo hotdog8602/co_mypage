@@ -1,6 +1,48 @@
 
 
 
+
+
+# 개인과제 Capture List
+
+
+- 평가항목
+
+  - [local] SAGA:  
+  
+  
+
+  - [local] CQRS(Mypage view): 
+  
+  
+  
+  - [local] req/resp : 
+  
+  
+  
+  - [local] Circuit Breaker 
+  
+  
+  
+  - Deploy/Pipeline
+  
+  
+  
+  - Autoscale (HPA)
+  
+  
+  
+  - Self-healing (Liveness Probe)
+  
+  
+  
+  - Zero-downtime deploy (Readiness Probe)
+  
+
+
+
+
+
 # 최종 조별과제 - 가지마켓 시스템
 
 - 체크포인트 : https://workflowy.com/s/assessment/qJn45fBdVZn4atl3#/61a9026e22c1
