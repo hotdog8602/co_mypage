@@ -8,6 +8,11 @@
 
 - 평가항목
 
+  -eventstorming
+  
+  ![image](https://user-images.githubusercontent.com/68408645/92618935-d86da980-f2fb-11ea-9923-5f374a20b0de.png)
+
+  
   - SAGA:  
 
 
