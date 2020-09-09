@@ -21,10 +21,16 @@
 
   - [local] CQRS(Mypage view): 
   
+  
+  ![image](https://user-images.githubusercontent.com/68408645/92607076-9d18ae00-f2ee-11ea-9a7f-f071a94100ca.png)
+
+
+  ![image](https://user-images.githubusercontent.com/68408645/92606248-b5d49400-f2ed-11ea-8d1a-901206300ec2.png)
+
+
   ![image](https://user-images.githubusercontent.com/68408645/92606906-75294a80-f2ee-11ea-95a1-88fc956f8963.png)
 
   
-  ![image](https://user-images.githubusercontent.com/68408645/92606248-b5d49400-f2ed-11ea-8d1a-901206300ec2.png)
 
   
   - [local] req/resp : 
