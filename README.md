@@ -139,6 +139,17 @@ hystrix:
   - Deploy/Pipeline
   
   
+  ![image](https://user-images.githubusercontent.com/68408645/92672245-324d8e00-f353-11ea-96eb-16739fd36479.png)
+  
+  
+  ![image](https://user-images.githubusercontent.com/68408645/92672155-09c59400-f353-11ea-9607-7b55196ed467.png)
+
+  
+  - CI/CD 이후 Cloud에서 조회한 결과
+  
+  ![image](https://user-images.githubusercontent.com/68408645/92671634-c0c11000-f351-11ea-9119-ba4f5d1e76e8.png)
+
+  
   
   - Autoscale (HPA)
   
