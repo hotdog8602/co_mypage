@@ -51,7 +51,7 @@
 
   
 
-  - [local] CQRS(Mypage view): 
+  - CQRS(Mypage view): 
   
   
   ![image](https://user-images.githubusercontent.com/68408645/92607076-9d18ae00-f2ee-11ea-9a7f-f071a94100ca.png)
@@ -65,7 +65,7 @@
   
 
   
-  - [local] req/resp : 
+  - req/resp : 
   
   ```
   @PostPersist
