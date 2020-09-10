@@ -145,7 +145,7 @@ hystrix:
   ![image](https://user-images.githubusercontent.com/68408645/92672155-09c59400-f353-11ea-9607-7b55196ed467.png)
 
   
-  - CI/CD 이후 Cloud에서 조회한 결과
+    - CI/CD 이후 Cloud에서 조회한 결과
   
   ![image](https://user-images.githubusercontent.com/68408645/92671634-c0c11000-f351-11ea-9119-ba4f5d1e76e8.png)
 
@@ -153,17 +153,14 @@ hystrix:
   
   - Autoscale (HPA)
   
+    - HPA 적용하여 Autoscale 한결과(POD가 늘어 났음..)
   
-  
-  - Self-healing (Liveness Probe)
-  
-  
-  
-  - Zero-downtime deploy (Readiness Probe)
-  
+  ![image](https://user-images.githubusercontent.com/68408645/92675787-2796f700-f35b-11ea-9938-f0891c6c86d3.png)
 
 
+  ![image](https://user-images.githubusercontent.com/68408645/92675822-3d0c2100-f35b-11ea-90c7-94b05a7e3b1d.png)
 
+  
 
 
 
