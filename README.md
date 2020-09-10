@@ -3,7 +3,7 @@
 
 
 
-# 개인과제 Capture List
+# 개인과제 Final Test
 
 
 - 평가항목
